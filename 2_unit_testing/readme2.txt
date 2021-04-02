@@ -10,6 +10,8 @@ a room with only 2 of the amenities and 4 beds - room 117,
 or a room with 3 beds and all 3 amenities - room 249.
 The room matcher should give you room 231, as this prioritizes having all 3 amenities
 but will allow for an extra bed to give you all of them, as no other room is available with 4 beds and all amenities.
+
+
 In order to test the mobile key system:
 Launch Cloud Surf Inn project code.
 Log into user page as cutomer using "user" as username and password.
