@@ -42,3 +42,16 @@ To mark that a housekeeping request has been completed (as a housekeeper):
     Click the "Complete Active Request" button.
     The test is complete; the active request has been marked as completed and removed from the "Accepted Requests" box!
 
+In order to test the power saving system:
+Launch Cloud Surf Inn.
+Log into user page as cutomer using "user" as username and password.
+Navigate to "Room Control"
+Select "Check-In"
+Select "Show"
+The current room temperature will show.
+Enter Desired temperature and select update
+Select "Show"
+The desired  temperature should be shown
+Select "Check-Out"
+Select Show
+The current temperature in the room will show "Temperature Off"
