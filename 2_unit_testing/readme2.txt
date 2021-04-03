@@ -18,3 +18,17 @@ Log into user page as cutomer using "user" as username and password.
 Navigate to the "Book a room"
 After preferences are applied for the room booking, click "Find a Room" button.
 The system will provide a 10 character alphanumeric pin for the specific room assigned to the customer. 
+
+In order to test the power saving system:
+Launch Cloud Surf Inn.
+Log into user page as cutomer using "user" as username and password.
+Navigate to "Room Control"
+Select "Check-In"
+Select "Show"
+The current room temperature will show.
+Enter Desired temperature and select update
+Select "Show"
+The desired  temperature should be shown
+Select "Check-Out"
+Select Show
+The current temperature in the room will show "Temperature Off"
