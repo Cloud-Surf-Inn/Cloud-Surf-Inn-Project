@@ -22,26 +22,11 @@ public static Socket activateControl(String state) {
 	    dout=new DataOutputStream(connected.getOutputStream());  
 	    din = new BufferedReader(new InputStreamReader (connected.getInputStream()));
 	        
-	            //BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-	            //System.out.print("From GUI/Database to Pi: ");
-	            //String toPi = reader.readLine();
-	            //System.out.println(toPi); 
+	         
 	    if(toPi.equals("exit"))return null;
 	    dout.writeUTF(toPi);
 	
-	            /*if(toPi.equals("DisplayTemp")){
-	                fromClient = din.readLine(); 
-	                System.out.println(fromClient);
-	                continue;
-	            }
-	            */
-	            //if(toPi.equals("SetTemp")){
-	            //    System.out.print("Enter Desired Temp: ");
-	                
-	                //String temp = reader.readLine();
-	                //dout.writeUTF(temp);
-	            //continue;
-	     
+	            
 	    return connected;
 	    
     }
@@ -83,25 +68,5 @@ public static String displayTemp() {
 	return null;
 
 }
-/*
-public static DataOutputStream setOut() {
-	try {
-		DataOutputStream dout=new DataOutputStream(connected.getOutputStream());  
-		return dout;
-	}
-	catch(Exception e){
-	    e.printStackTrace();}  
-	return null;
-}
-public static BufferedReader setIn(Socket connected) {
-	try {
-		BufferedReader din=new BufferedReader(new InputStreamReader (connected.getInputStream()));
-		return din;
-	}
-	catch(Exception e){
-	    e.printStackTrace();}  
-	return null;
-}
-*/
 }
 
