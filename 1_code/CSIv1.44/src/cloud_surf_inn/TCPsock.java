@@ -68,5 +68,82 @@ public static String displayTemp() {
 	return null;
 
 }
+ public static void fan_on_high() {
+	 try {
+		 dout.writeUTF("FanOnHigh");
+		 System.out.println("Ventilation ON HIGH"); 
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ public static void fan_on_low() {
+	 try {
+		 dout.writeUTF("FanOnLow");
+		 System.out.println("Ventilation ON LOW"); 
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ public static void fan_off() {
+	 try {
+		 dout.writeUTF("FanOff");
+		 System.out.println("Ventilation OFF"); 
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ public static void light_on() {
+	 try {
+		 dout.writeUTF("LightOn");
+		 System.out.println("Lights ON"); 
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ public static void light_off() {
+	 try {
+		 dout.writeUTF("LightOff");
+		 System.out.println("Lights OFF"); 
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ 
+ public static void comfort_mode() {
+	 try {
+		 dout.writeUTF("ComfortMode");
+		 System.out.println("Comfort Mode");
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+	 
+ }
+ public static void leave() {
+	 try {
+		 dout.writeUTF("Leave");
+		 System.out.println("Leaving");
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+ 
+ public static void arrive() {
+	 try {
+		 dout.writeUTF("Arrive");
+		 System.out.println("Arriving");
+	 }
+	 catch(Exception e){
+		    e.printStackTrace();}  
+		return;
+ }
+
 }
+
 
