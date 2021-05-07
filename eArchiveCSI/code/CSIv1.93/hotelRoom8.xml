@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<env>
+	<time messageId="17853057" msgTime="2020-06-10 6:00PM">
+		<hotel messageType="NEW" roomID="211" flrNum="2" bedNum="1" vacancy="0">
+			<roomData>
+				<roomId>211</roomId>
+				<flrNum>2</flrNum>
+				<bedNum>1</bedNum>
+				<vacancy>0</vacancy>
+				<kitchen>0</kitchen>
+				<jczi>0</jczi>
+				<bidet>1</bidet>
+				<prefRank>0</prefRank>
+				<tempControl>1</tempControl>
+				<curTemp>69</curTemp>
+				<tlc>2020-06-10 4:27PM</tlc>
+				<cReq>1</cReq>
+				<sReq>0</sReq>
+			</roomData>
+		</hotel>
+	</time>
+</env>
