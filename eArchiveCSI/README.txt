@@ -1,5 +1,5 @@
 How to Run Code:
-*directions to run code here*
+Directions to run code are in the "doc" directory in this folder in the document "technical_documentation".
 
 All Files:
 CleaningNode.java
