@@ -1,6 +1,9 @@
 How to Run Code:
 Directions to run code are in the "doc" directory in this folder in the document "technical_documentation".
 
+The "doc" directory contains files for the reports, presentations, and other documents.
+Contains: Report_1.pdf, Report_2.pdf, Report_3.pdf, Demo1_CSI.pptx, Demo2_CSI.pptx, technical_documentation.pdf
+
 All Files:
 CleaningNode.java
 Written by: Juan Escudero
