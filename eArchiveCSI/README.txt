@@ -60,10 +60,10 @@ Debugged by: Ryder Morrello
 This is the class for the queue of all room service requests. It utilizes java's Queue datastructure and is thus a FIFO datastructure. The queue will consist of ServiceNodes. This queue stores all service requests for all service staff to accept and manage. This queue implements Java's built-in Linked List class
 
 TCPsock.java
-Written by: 
-Tested by: 
-Debugged by: 
-
+Written by: Sebastian Matiz
+Tested by: Chynna Walsh
+Debugged by: Jakub Vogel
+This is the class that is used for the power control subsystem. It has many methods and functions relating to the devices in the room and is also the class that is responsible for communicating with the raspberry pi through TCP sockets.
 
 TooManyBeds.java
 Written by: 
