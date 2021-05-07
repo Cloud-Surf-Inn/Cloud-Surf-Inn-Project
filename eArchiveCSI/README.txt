@@ -1,3 +1,7 @@
+How to Run Code:
+
+
+All Files:
 CleaningNode.java
 This class defines the CleaningNode datastructure, methods, and its constituent fields. This class also includes getter and setter methods for all fields. This class will be used to create the node in the priority queues/heaps using to manage the housekeeping system in Cloud Surf Inn. This class will use java's built in functions for dates and times. This class has a compareTo method for use of the PriorityQueue's built in comparator. This class features a helper method, priority Calculator, that is used to determine the CleaningNode's priority.
 
