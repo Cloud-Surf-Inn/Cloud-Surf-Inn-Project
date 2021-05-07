@@ -6,7 +6,6 @@ public class testing_power_control_hub {
 
 public static void main(String[] args) {  
 
-
     String fromClient; 
     try{      
         ServerSocket jSock = new ServerSocket(54321); 
@@ -32,26 +31,17 @@ public static void main(String[] args) {
             }
             if(toPi.equals("SetTemp")){
                 System.out.print("Enter Desired Temp: ");
-                
-
                 String temp = reader.readLine();
                 dout.writeUTF(temp);
                 continue;
             }
-
-
-
         }
-
-
         dout.close();  
         din.close();
         jSock.close();
     }
-
     catch(Exception e){
-        e.printStackTrace();}   
-
-
+        e.printStackTrace();
+    }   
 }
 }
